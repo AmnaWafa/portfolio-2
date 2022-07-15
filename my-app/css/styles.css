@@ -1,0 +1,42 @@
+html, body {
+    font-family:"Heebo" , sans-serif;
+}
+
+.blog-item h3 {
+    font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+
+/* Dark Color */
+
+color: #21243D;
+}
+.blog-item p {
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+/* Dark Color */
+
+color: #21243D;
+}
+span, .date-published {
+    font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+
+/* Dark Color */
+
+color: #21243D;
+}
+
+span, .location {
+    font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+
+/* Light */
+
+color: #8695A4;
+
+}
