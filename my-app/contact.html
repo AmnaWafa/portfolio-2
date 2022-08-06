@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+                <ul class="desktop-links">
+                    <li>
+                        <a href="works.html">Works</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Contact</a>
+                    </li>
+                </ul>
+            <div class="menu-button" >
+               <img src="./images/menu.svg" alt="menu"  id="hamburger" onclick="displayNav()">
+            </div>
+            <div class="mobile-nav">
+                <div class="cross-menu-button">
+                    <img src="./images/cross.png" onclick="closeNav()">
+                </div>
+                <ul class="mobile-links">
+                    <li>
+                        <a href="works.html">Works</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="contact-box">
+       <div class="cb-inner">
+         <h1>Contact us</h1>
+            <div class="contact">
+                <label for="name">Name</label>
+                <input type="text" placeholder="e.g. John Smith">
+                <label for="email">E-mail</label>
+                <input type="email" placeholder="e.g. johnsmith@xmail.com">
+                <label for="tel.no">Telephone No.</label>
+                <input type="number" placeholder="e.g. xxxx-xxxxxxx">
+                <label for="msg">Message</label>
+                <input type="text" placeholder="Your Message">
+                <!-- <input type="button" value="submit"> -->
+                <button type="submit">Submit</button>
+            </div>
+       </div>
+    </div>
+    <footer>
+        <div class="socials">
+          <a target="_blank" href="https://facebook.com"><img src="./images/fb.svg" alt="fb"></a>
+          <a target="_blank" href="https://instagram.com"><img src="./images/insta.svg" alt=""></a>
+          <a target="_blank" href="https://twitter.com"><img src="./images/twitter.svg" alt=""></a>
+          <a target="_blank" href="https://linkedin.com"><img src="./images/linkedin.svg" alt=""></a>
+        </div>
+        <div class="copyrights">
+            <p>Copyright ©2020 All rights reserved </p>
+        </div>
+     </footer>
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
