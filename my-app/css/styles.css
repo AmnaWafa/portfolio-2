@@ -390,7 +390,7 @@ color: #21243D;
     align-items: center;
     background-color: #FFFFFF;
     margin: 10px 500px;
-    opacity: .9;
+    /* opacity: .9; */
     border-radius: 25px;
 }
 
@@ -407,7 +407,6 @@ color: #21243D;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     padding: 20px 0px;
 }
 
@@ -489,7 +488,7 @@ footer .socials {
 }
 
 .mobile-nav {
-   background-color: #53545c;
+   background-color: #181313;
    height: 100%;
    width: 100%;
    position: fixed;
@@ -506,7 +505,7 @@ footer .socials {
  }
 
  .mobile-nav ul a {
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 30px;
     font-weight: bold;
     font-style: normal;
