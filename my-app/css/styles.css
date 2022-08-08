@@ -378,6 +378,9 @@ color: #21243D;
     background-image: url('..//images/bgimage.jpg');
     max-height: fit-content;
     padding: 100px 0px;
+    background-color: #FF6464;
+    background-position: center;
+    background-size: cover;
 }
 
 .contact-box .cb-inner {
